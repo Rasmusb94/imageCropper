@@ -5,7 +5,7 @@ count = 1
 weather = ["Sunny", "Rain", "Cloudy", "Snow", "Fog"]
 
 #Change directory of pictures to crop
-directory = "cloudytrain"
+directory = "snowtrain"
 path = "Image2Weather/" + directory
 
 for infile in os.listdir(path):
@@ -21,7 +21,7 @@ for infile in os.listdir(path):
         fn, fext = os.path.splitext(infile)
 
         #Change weather 
-        region.save('{}/Cropped/{}_{}{}'.format(path, count, weather[2], fext))
+        region.save('{}/Cropped/{}_{}{}'.format(path, count, weather[3], fext))
 
         count += 1
 if count > 1:
