@@ -5,7 +5,7 @@ count = 1
 weather = ["Sunny", "Rain", "Cloudy", "Snow", "Fog"]
 
 #Change directory of pictures to crop
-directory = "cloudytest"
+directory = "cloudytrain"
 path = "Image2Weather/" + directory
 
 for infile in os.listdir(path):
