@@ -1,2 +1,2 @@
-# imageCroper
-Code for cropping, rescaling and blurring images
+# imageModifier
+Code for cropping, rescaling and blurring images using PIL
